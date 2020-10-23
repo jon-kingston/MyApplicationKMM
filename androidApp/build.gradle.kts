@@ -32,4 +32,9 @@ android {
             isMinifyEnabled = false
         }
     }
+
+
+    buildFeatures {
+        viewBinding = true
+    }
 }
